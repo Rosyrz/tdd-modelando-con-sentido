@@ -1,0 +1,8 @@
+phpunit.phar
+/vendor
+composer.lock
+.env
+phpunit
+coverage.clover
+build/
+.idea

@@ -1,0 +1,13 @@
+TAP version 13
+ok 1 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_calculates_fabric_price
+ok 2 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_trows_exception_when_fabric_not_found
+ok 3 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_calculates_shirt_buttons_price
+ok 4 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_throws_exception_when_button_skau_not_found
+ok 5 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_adds_manufacture_costs_to_the_shirt
+ok 6 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_adds_cut_costs_to_the_shirt
+ok 7 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_throws_exception_if_no_cost_found_in_repositoru
+ok 8 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::it_throws_exception_if_no_ManufactureCost_found_in_repositoru
+ok 9 - rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest::testGetServicesFactory
+ok 10 - rosyrz\Mcs\Tests\CommandBusTest::test_it_gets_the_command_and_gives_it_to_the_bus
+ok 11 - rosyrz\Mcs\Tests\CommandBusTest::testGetServicesFactory
+1..11

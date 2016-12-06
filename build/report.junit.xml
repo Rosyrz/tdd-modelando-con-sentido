@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Mcs Test Suite" tests="11" assertions="11" failures="0" errors="0" time="0.108992">
+    <testsuite name="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" tests="9" assertions="9" failures="0" errors="0" time="0.108022">
+      <testcase name="it_calculates_fabric_price" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="16" assertions="1" time="0.096755"/>
+      <testcase name="it_trows_exception_when_fabric_not_found" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="31" assertions="1" time="0.002417"/>
+      <testcase name="it_calculates_shirt_buttons_price" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="40" assertions="1" time="0.001765"/>
+      <testcase name="it_throws_exception_when_button_skau_not_found" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="58" assertions="1" time="0.001672"/>
+      <testcase name="it_adds_manufacture_costs_to_the_shirt" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="67" assertions="1" time="0.002426"/>
+      <testcase name="it_adds_cut_costs_to_the_shirt" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="86" assertions="1" time="0.000233"/>
+      <testcase name="it_throws_exception_if_no_cost_found_in_repositoru" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="106" assertions="1" time="0.001727"/>
+      <testcase name="it_throws_exception_if_no_ManufactureCost_found_in_repositoru" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="116" assertions="1" time="0.000163"/>
+      <testcase name="testGetServicesFactory" class="rosyrz\Mcs\Test\CalculateShirtPriceTest\CalculateShirtPriceTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CalculateShirtPrice\CalculateShirtPriceTest.php" line="39" assertions="1" time="0.000864"/>
+    </testsuite>
+    <testsuite name="rosyrz\Mcs\Tests\CommandBusTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CommandBusTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.000970">
+      <testcase name="test_it_gets_the_command_and_gives_it_to_the_bus" class="rosyrz\Mcs\Tests\CommandBusTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CommandBusTest.php" line="18" assertions="1" time="0.000854"/>
+      <testcase name="testGetServicesFactory" class="rosyrz\Mcs\Tests\CommandBusTest" file="C:\Program Files (x86)\Ampps\www\modelando-con-sentido\tests\CommandBusTest.php" line="39" assertions="1" time="0.000116"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

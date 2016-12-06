@@ -1,0 +1,30 @@
+{
+    "name": "rosyrz/modelando-con-sentido",
+    "description": "Ejemplo de modelado de negocio con php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rosyrz",
+            "email": "rosangelyrp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rosyrz\\Mcs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rosyrz\\Mcs\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "joselfonseca/fonck-toolbox": "^0.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"4.8.*"
+    }
+}

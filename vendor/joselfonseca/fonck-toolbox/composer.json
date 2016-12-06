@@ -1,0 +1,48 @@
+{
+    "name": "joselfonseca/fonck-toolbox",
+    "description": "Framework Agnostic implementation of the Tactician Command bus.",
+    "license": "MIT",
+    "keywords": [
+        "Command Bus",
+        "Tactician",
+        "Events",
+        "Command"
+    ],
+    "authors": [
+        {
+            "name": "Jose Luis Fonseca",
+            "email": "jose@ditecnologia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/container": "2.0.*",
+        "league/tactician": "1.0.*",
+        "symfony/event-dispatcher": "2.7.*",
+        "symfony/options-resolver": "2.7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joselfonseca\\FonckToolbox\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Joselfonseca\\FonckToolbox\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
